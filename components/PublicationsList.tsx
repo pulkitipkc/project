@@ -60,7 +60,7 @@ export default function PublicationsList() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    setCurrentPage(1); // Reset to first page when searching
+    setCurrentPage(1); 
     fetchPublications();
   };
 

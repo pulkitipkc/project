@@ -49,7 +49,6 @@ export default function ProductList() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    // Search is already handled by the useEffect above
   };
 
   // Pagination
